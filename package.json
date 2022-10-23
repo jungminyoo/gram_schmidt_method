@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jungminyoo/gram_schmidt_method/issues"
   },
-  "homepage": "https://github.com/jungminyoo/gram_schmidt_method#readme"
+  "homepage": "https://github.com/jungminyoo/gram_schmidt_method#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
