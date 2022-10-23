@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/jungminyoo/gram_schmidt_method/issues"
   },
-  "homepage": "https://github.com/jungminyoo/gram_schmidt_method#readme",
+  "homepage": "https://jungminyoo.github.io/gram_schmidt_method",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
