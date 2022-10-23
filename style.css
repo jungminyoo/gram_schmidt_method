@@ -1,0 +1,21 @@
+#dimension_form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+#dimension_form input {
+  margin-bottom: 5px;
+}
+
+.vector_label {
+  margin-right: 10px;
+}
+
+.vector_li {
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+}

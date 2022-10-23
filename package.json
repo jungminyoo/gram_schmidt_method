@@ -1,0 +1,19 @@
+{
+  "name": "gram_schmidt_method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungminyoo/gram_schmidt_method.git"
+  },
+  "author": "jungminyoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungminyoo/gram_schmidt_method/issues"
+  },
+  "homepage": "https://github.com/jungminyoo/gram_schmidt_method#readme"
+}

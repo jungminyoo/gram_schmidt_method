@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Gram-Schmidt Orthogonalization</title>
+  </head>
+  <body>
+    <h1>Gram-Schmidt Orthogonalization</h1>
+    <form id="dimension_form">
+      <label for="dimension_input">Number of vector dimension</label>
+      <input
+        id="dimension_input"
+        placeholder="2 ~ 10"
+        type="number"
+        min="2"
+        max="10"
+      />
+      <label for="vectors_num_input">Number of vectors</label>
+      <input
+        id="vectors_num_input"
+        placeholder="at least num of dimension"
+        type="number"
+        max="15"
+      />
+      <input type="submit" value="Submit" />
+    </form>
+    <form id="vectors_form">
+      <ul id="vectors_list"></ul>
+      <input type="submit" value="Execute" id="execute_button" class="hidden" />
+    </form>
+    <div id="result">
+      <ul id="result_ul"></ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
